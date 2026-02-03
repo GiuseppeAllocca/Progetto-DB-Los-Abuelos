@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f08cd207-0965-4e00-a0d1-f3a07694315f" width="45%" alt="Admin Dashboard" />
   &nbsp; &nbsp;
-  <img src="" width="45%" alt="Activity Details" />
+  <img src="https://github.com/user-attachments/assets/1c04a3d0-75b4-4250-b3c9-5321c20e9821" width="45%" alt="Activity Details" />
 </p>
 
 ## 📋 Project Overview
@@ -50,7 +50,7 @@ Implemented a granular security model using Oracle Roles:
 The database models a complex relational system including M:N relationships (Categories, Friendships) and CLOB data types for media descriptions.
 
 <p align="center">
-  <img src="LINK_FOTO_SCHEMA_ER" width="85%" alt="ER Diagram" />
+  <img src="https://github.com/user-attachments/assets/9e8c023b-9ca7-4eb9-8e5c-21cea9deaaae" width="85%" alt="ER Diagram" />
 </p>
 
 ## 📂 Repository Structure
