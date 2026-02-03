@@ -55,3 +55,22 @@ SELECT Categoria, AVG(Num_Fotografie) AS Densita_Foto
 FROM FOTO_PER_ATTIVITA_CATEGORIA
 GROUP BY Categoria
 ORDER BY Densita_Foto ASC;
+
+-- INDICI PER OTTIMIZZARE LA RICERCA IN QUERY E VISTE--
+CREATE INDEX RECENSIONI_ATTIVITA_INDICE ON RECENSIONI(Attivita);
+CREATE INDEX RECENSIONI_UTENTE_INDICE ON RECENSIONI(Utente);
+CREATE INDEX FOTOGRAFIE_ATTIVITA_INDICE ON FOTOGRAFIE(Attivita);
+
+-- Ottimizzazione pensata per la query che richiede il calcoo del num. medio di recensioni per categoria
+CREATE INDEX APPARTENZE_CATEGORIE_ATTIVITA ON APPARTENENZE_CATEGORIE(Attivita);
+
+-- Ottimizzazione pensata per la query che necessità l'esecuzione di un ricerca per città
+CREATE INDEX CITTA_INDICE ON ATTIVITA_COMMERCIALI(Città);
+
+-- Ottimizzazione pensata per migliorare l'analisi della distribuzione temporale dei check-in
+CREATE INDEX CHECKIN_DATA_INDICE ON CHECK_IN(Data);
+
+-- Ottimizzazione pensata per migliorare le query che restituiscono una classifica
+CREATE INDEX VALUTAZIONE_INDICE ON ATTIVITA_COMMERCIALI(Valutazione_Media DESC);
+CREATE INDEX NUM_RECENSIONI_INDICE ON UTENTI(Num_Recensioni DESC);
+
