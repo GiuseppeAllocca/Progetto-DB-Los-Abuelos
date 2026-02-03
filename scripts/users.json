@@ -1,0 +1,46 @@
+[
+  {
+    "review_id": "r101",
+    "user_id": "u001",
+    "business_id": "b001",
+    "stars": 5,
+    "text": "La pizza migliore che abbia mai mangiato! Servizio eccellente.",
+    "date": "2023-06-01 20:15:00",
+    "useful": 2,
+    "funny": 0,
+    "cool": 1
+  },
+  {
+    "review_id": "r102",
+    "user_id": "u002",
+    "business_id": "b001",
+    "stars": 4,
+    "text": "Buona pizza, ma un po' di attesa nel weekend.",
+    "date": "2023-06-05 21:00:00",
+    "useful": 0,
+    "funny": 0,
+    "cool": 0
+  },
+  {
+    "review_id": "r103",
+    "user_id": "u001",
+    "business_id": "b002",
+    "stars": 3,
+    "text": "Caffè nella media, prezzi un po' alti per essere al banco.",
+    "date": "2023-07-10 09:30:00",
+    "useful": 1,
+    "funny": 0,
+    "cool": 0
+  },
+  {
+    "review_id": "r104",
+    "user_id": "u003",
+    "business_id": "b003",
+    "stars": 5,
+    "text": "Vista mozzafiato sul golfo e camere pulitissime.",
+    "date": "2023-08-01 10:00:00",
+    "useful": 3,
+    "funny": 1,
+    "cool": 2
+  }
+]

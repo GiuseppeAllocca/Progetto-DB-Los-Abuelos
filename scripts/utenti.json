@@ -1,0 +1,17 @@
+[
+  {
+    "user_id": "u001",
+    "name": "Mario Rossi",
+    "joining_date": "2023-01-15"
+  },
+  {
+    "user_id": "u002",
+    "name": "Laura Bianchi",
+    "joining_date": "2023-03-10"
+  },
+  {
+    "user_id": "u003",
+    "name": "Francesco Verdi",
+    "joining_date": "2023-05-20"
+  }
+]

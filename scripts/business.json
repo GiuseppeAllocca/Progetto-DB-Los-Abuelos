@@ -1,0 +1,41 @@
+[
+  {
+    "business_id": "b001",
+    "name": "Pizzeria Bella Napoli",
+    "address": "Via Toledo 123",
+    "city": "Napoli",
+    "state": "NA",
+    "postal_code": "80100",
+    "latitude": 40.8399,
+    "longitude": 14.2525,
+    "stars": 4.5,
+    "review_count": 10,
+    "categories": ["Ristoranti", "Pizzerie", "Italiano"]
+  },
+  {
+    "business_id": "b002",
+    "name": "Caffè Centrale Roma",
+    "address": "Via del Corso 50",
+    "city": "Roma",
+    "state": "RM",
+    "postal_code": "00186",
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "stars": 3.5,
+    "review_count": 5,
+    "categories": ["Caffetterie", "Bar", "Colazioni"]
+  },
+  {
+    "business_id": "b003",
+    "name": "Hotel Vesuvio Inn",
+    "address": "Corso Vittorio Emanuele 10",
+    "city": "Napoli",
+    "state": "NA",
+    "postal_code": "80121",
+    "latitude": 40.8350,
+    "longitude": 14.2350,
+    "stars": 5.0,
+    "review_count": 8,
+    "categories": ["Hotel", "Viaggi", "Eventi"]
+  }
+]
