@@ -31,7 +31,7 @@ The database manages its own consistency using triggers, moving logic away from 
 - **Data Validation:** Triggers enforce business rules (e.g., preventing check-ins with future dates) directly at the database level.
 
 ### 2. Data Engineering & ETL Pipeline
-To simulate a production environment, I implemented an ETL (Extract, Transform, Load) process using the **Yelp Open Dataset**:
+To simulate a production environment, we implemented an ETL (Extract, Transform, Load) process using the **Yelp Open Dataset**:
 - **Source:** Raw data extracted from Yelp (English dataset).
 - **Transformation:** Python scripts map the raw data into standardized JSON artifacts (`users.json`, `business.json`, `reviews.json`, `checkin.json`, `tips.json`).
 - **Loading:** Automated generation of SQL `INSERT` statements to populate the Italian database schema while maintaining referential integrity.
@@ -59,9 +59,8 @@ The database models a complex relational system including M:N relationships (Cat
 - `docs/`: Full project documentation (PDF).
 
 ## 👥 Authors
-- **Giuseppe Allocca** - *Database Design & PL/SQL Implementation*
-- Stefano Acri
-- Giuseppe Di Donna
+## 👥 Authors
+**Giuseppe Allocca**, Stefano Acri and Giuseppe Di Donna
 
 ---
 *Developed as a Capstone Project for the Databases Course @ University of Naples Federico II.*
