@@ -59,8 +59,7 @@ The database models a complex relational system including M:N relationships (Cat
 - `docs/`: Full project documentation (PDF).
 
 ## 👥 Authors
-## 👥 Authors
-**Giuseppe Allocca**, Stefano Acri and Giuseppe Di Donna
+Giuseppe Allocca, Stefano Acri and Giuseppe Di Donna
 
 ---
 *Developed as a Capstone Project for the Databases Course @ University of Naples Federico II.*
